@@ -24,9 +24,7 @@ subprojects {
 
     group = 'com.framework.springcloud'
     version = '0.0.1-SNAPSHOT'
-    sourceCompatibility = 1.8
 
-    dependencies {
-        testCompile('org.springframework.boot:spring-boot-starter-test')
-    }
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
 }

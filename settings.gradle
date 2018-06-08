@@ -1,2 +1,2 @@
 rootProject.name = 'YJJ-Admin-Cloud'
-include 'framework-auth'
+include 'framework-oauth'
