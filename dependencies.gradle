@@ -1,0 +1,8 @@
+ext {
+    springBootWeb = 'org.springframework.boot:spring-boot-starter-web'
+    springBootDataRedis = 'org.springframework.boot:spring-boot-starter-data-redis'
+    springBootSwagger = [
+            'io.springfox:springfox-swagger2:2.6.1',
+            'io.springfox:springfox-swagger-ui:2.6.1'
+    ]
+}

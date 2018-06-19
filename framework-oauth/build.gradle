@@ -1,4 +1,5 @@
 dependencies {
-    compile 'org.springframework.boot:spring-boot-starter-web'
-    compile 'org.springframework.boot:spring-boot-starter-data-redis'
+    compile springBootWeb
+    compile springBootDataRedis
+    compile project(":framework-swagger-starter")
 }

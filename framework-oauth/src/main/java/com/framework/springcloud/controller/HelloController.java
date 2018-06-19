@@ -14,7 +14,7 @@ public class HelloController {
     @Autowired
     private StringRedisTemplate redisTemplate;
 
-    @GetMapping(value = "/hello")
+    @GetMapping(value = "/helloworld")
     public String hello() {
         redisTemplate.opsForValue().set("yangjiajun", "30", 1, TimeUnit.MINUTES);
         return redisTemplate.opsForValue().get("yangjiajun");

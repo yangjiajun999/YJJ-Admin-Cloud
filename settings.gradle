@@ -1,2 +1,4 @@
 rootProject.name = 'YJJ-Admin-Cloud'
 include 'framework-oauth'
+include 'framework-swagger-starter'
+

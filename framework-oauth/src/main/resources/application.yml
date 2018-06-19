@@ -8,3 +8,9 @@ spring:
         max-active: 8
         max-wait: -1ms
         max-idle: 500
+swagger:
+  groupName: framework-oauth
+  title: 权限验证
+  description: 权限验证相关接口文档
+  version: 1.0
+  basePackage: com.framework.springcloud.controller

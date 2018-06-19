@@ -1,8 +1,4 @@
-allprojects {
-    repositories {
-        maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
-    }
-}
+apply from: "dependencies.gradle"
 
 buildscript {
     ext {
@@ -13,6 +9,12 @@ buildscript {
     }
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+allprojects {
+    repositories {
+        maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
     }
 }
 
