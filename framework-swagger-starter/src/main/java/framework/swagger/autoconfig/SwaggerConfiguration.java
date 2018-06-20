@@ -1,4 +1,4 @@
-package framework.swagger;
+package framework.swagger.autoconfig;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
